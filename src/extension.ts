@@ -3,6 +3,7 @@ import { Assets } from "./Assets";
 import CodeLensProvider from "./CodeLensProvider";
 import CommandManager from "./CommandManager";
 import JBangCompletionProvider from "./CompletionProvider";
+import DependencyPasteEventProvider from "./DependencyPasteEventHandler";
 import EditorListener from "./EditorListener";
 import JBangConfig from "./JBangConfig";
 import JBangDebugger from "./JBangDebugger";
@@ -24,7 +25,7 @@ export async function activate(context: ExtensionContext) {
 	JBangCompletionProvider.initialize(context);
 	JBangHoverProvider.initialize(context);
 	JBangCodeActions.initialize(context);
+	DependencyPasteEventProvider.initialize(context);
 	console.log(`${context.extension.packageJSON.name} ${version} is now active!`);
 }
-
 export function deactivate() {}
