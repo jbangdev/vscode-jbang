@@ -11,8 +11,11 @@
 		"url": "https://github.com/jbangdev/jbang-vscode"
 	},
 	"engines": {
-		"vscode": "^1.65.0"
+		"vscode": "^1.85.0"
 	},
+	"enabledApiProposals": [
+		"documentPaste"
+	],
 	"categories": [
 		"Other"
 	],
@@ -240,7 +243,7 @@
 	"devDependencies": {
 		"@types/mocha": "10.0.2",
 		"@types/node": "18.15.0",
-		"@types/vscode": "1.65.0",
+		"@types/vscode": "1.85.0",
 		"@typescript-eslint/eslint-plugin": "6.13.0",
 		"@typescript-eslint/parser": "6.13.0",
 		"@vscode/test-electron": "2.3.4",
@@ -257,6 +260,6 @@
 		"fast-xml-parser": "^4.3.1",
 		"lru-cache": "10.1.0",
 		"shelljs": "^0.8.5",
-		"vscode-languageclient": "^8.1.0"
+		"vscode-languageclient": "^9.0.1"
 	}
 }
