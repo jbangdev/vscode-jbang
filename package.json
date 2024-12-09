@@ -265,7 +265,7 @@
 	"dependencies": {
 		"axios": "1.7.7",
 		"fast-xml-parser": "^4.5.0",
-		"lru-cache": "11.0.1",
+		"lru-cache": "11.0.2",
 		"shelljs": "^0.8.5",
 		"vscode-languageclient": "^8.1.0"
 	}
